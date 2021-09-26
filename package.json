@@ -1,0 +1,21 @@
+{
+  "name": "react-ant",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npm run watch:css && vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "watch:css":"postcss src/assets/tailwind.css -o src/assets/main.css"
+  },
+  "dependencies": {
+    "antd": "^4.16.13",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.0",
+    "postcss-cli": "^9.0.0",
+    "tailwindcss": "^2.2.15",
+    "vite": "^2.5.4"
+  }
+}
